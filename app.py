@@ -166,7 +166,7 @@ def gaussianFilter():
 
         if selected_box == '3x3 Kernel':
            img_blur = cv2.GaussianBlur(src=img, ksize=(3,3),sigmaX=0, sigmaY=0)
-            st.image(img_blur,use_column_width=True)
+           st.image(img_blur,use_column_width=True)
 
         if selected_box == '5x5 Kernel':
             img_blur = cv2.GaussianBlur(src=img, ksize=(5,5),sigmaX=0, sigmaY=0)
