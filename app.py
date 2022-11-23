@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# Import required libraries
 
 import cv2
 import numpy as np
@@ -7,7 +5,7 @@ import streamlit as st
 import requests
 import os
 
-# Home UI 
+
 
 def main():
 
